@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zokirov"
+    android:orientation="vertical"
+    android:background="#EDF1D6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingHorizontal="8dp"
+                android:text="Navoiy davlat konchilik va texnologiyalar universitetining erkin tadqiqotchisi Zokirov Bahodir Shavkatovich haqida qisqacha
+\nMA’LUMOT
+"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="10sp"
+                android:justificationMode="inter_word"
+                android:text="  B.SH.Zokirov 1977-yil 13-martda Navoiy viloyati Navbahor  tumanining “Navkar” mahallasida ishchi oilada tavallud topgan. Oilali 3 nafar farzandning otasi.
+\n 1994-yilning 2-sentabridan Toshkent davlat texnika universiteti Navoiy filialiga “Elektr ta’minoti” yo’nalishi bo’yicha o‘qishga qabul qilinib, 1999-yil Navoiy davlat konchilik institutini muvaffaqiyatli tamomlagan.
+\n     B.SH.Zokirov 1999-yil 2- sentyabrdan Navoiy davlat konchilik instituti «Elektr ta’minoti» kafedrasida assistent lavozimida ish boshlagan. 2007-2017-yillarda Navoiy davlat konchilik instituti «Elektr energetikasi» kafedrasi katta o‘qituvchisi, 20017-2018- yillarda Navoiy davlat konchilik instituti «Energo-mexanika» fakulteti dekanining ma’naviy va axloqiy tarbiya ishlari bo‘yicha o‘rinbosari, 2018- yildan hozirgi vaqtgacha Navoiy davlat konchilik instituti «Energo-mexanika» fakulteti dekanining o’quv ishlari bo‘yicha o‘rinbosari lavozimida ishlab kelmoqda. Shuningdek, “Elektr energetikasi” kafedrasining o’rindoshlik asosida katta oqituvchisi sifatida faoliyat yuritib kelmoqda.
+\n  Pedagogik faoliyati davomida, 10 dan ortiq xorijiy va respublikamizdagi ilmiy jurnallarda maqolalar va konferensiya to‘plamlarda tezislarni nashr etgan. O‘zbekiston respublikasi Adliya vazirligi huzuridagi Intelektual mulk agentligi tomonidan elektron hisoblash mashinalari uchun yaratilgan 3 ta dasturiy vositaga mualliflik guvohnomasini olgan.
+\n Hozirda Navoiy davlat konchilik va texnologiyalar universitetining erkin tadqiqotchisi sifatida 13.00.02–Ta’lim va tarbiya nazariyasi va metodikasi  ixtisosligida “Yo`nalishga kirish” fanini o'qitish metodikasini mobil dasturiy ilovalar vositasida takomillashtirish (“Elektr energetikasi” ta’lim yo’nalishi misolida) mavzusida pedagogika fanlari bo’yich falsafa doktori (PhD) dissertatsiyasi ustida ilmiy izlanishlar olib bormoqda.
+       " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

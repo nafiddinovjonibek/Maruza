@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#609966"
+        android:paddingHorizontal="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video materiallar"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9DC08B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav"
+        android:paddingHorizontal="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingVertical="10dp">
+
+            <RelativeLayout
+                android:tag="1"
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="2"
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="3"
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="4"
+                android:id="@+id/m4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="5"
+                android:id="@+id/m5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="6"
+                android:id="@+id/m6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="7"
+                android:id="@+id/m7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="8"
+                android:id="@+id/m8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:tag="9"
+                android:id="@+id/m9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/task"
+                android:gravity="center"
+                android:onClick="Open"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9-video"
+                    android:textColor="#40513B"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

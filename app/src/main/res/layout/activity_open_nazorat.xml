@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenNazorat"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#609966"
+        android:paddingHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mavzu bo‘yicha nazorat savollari"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="#9DC08B"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="10dp">
+
+        <RelativeLayout
+            android:tag="1"
+            android:id="@+id/m1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/task"
+            android:gravity="center"
+
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/savollar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-Nazorat savollari"
+                android:textColor="#40513B"
+                android:fontFamily="sans-serif"
+                android:textSize="18dp"
+                android:lineSpacingExtra="10sp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

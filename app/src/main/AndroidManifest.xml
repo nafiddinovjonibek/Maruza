@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_gelio"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_gelio"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Maruza"
+        tools:targetApi="31">
+        <activity
+            android:name=".OquvMeyoriyHujjatlar"
+            android:exported="false" />
+        <activity
+            android:name=".video_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Video"
+            android:exported="false" />
+        <activity
+            android:name=".Adabiyot"
+            android:exported="false" />
+        <activity
+            android:name=".OpenTest"
+            android:exported="false" />
+        <activity
+            android:name=".OpenMustaqil"
+            android:exported="false" />
+        <activity
+            android:name=".OpenGlossary"
+            android:exported="false" />
+        <activity
+            android:name=".OpenTarqatma"
+            android:exported="false" />
+        <activity
+            android:name=".Tarqatma"
+            android:exported="false" />
+        <activity
+            android:name=".OpenNazorat"
+            android:exported="false" />
+        <activity
+            android:name=".Nazorat"
+            android:exported="false" />
+        <activity
+            android:name=".OpenAmaliy"
+            android:exported="false" />
+        <activity
+            android:name=".Amaliy"
+            android:exported="false" />
+        <activity
+            android:name=".OpenMaruza"
+            android:exported="false" />
+        <activity
+            android:name=".MaruzaMashguloti"
+            android:exported="false" />
+        <activity
+            android:name=".IshchiDastur"
+            android:exported="false" />
+        <activity
+            android:name=".NamunaviyDastur"
+            android:exported="false" />
+        <activity
+            android:name=".Zokirov"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

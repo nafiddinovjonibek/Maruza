@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:background="#EDF1D6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dastur haqida"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="  “E-learning” (elektron taʼlim) innovatsion texnologiyasi asosida “Yo‘nalishga kirish” fanidan talabalar mustaqil taʼlimini tashkil etish texnologiyasi.
+Ushbu mobil dastur 60710600 – Elektr energetika (tarmoqlar va yo‘nalishlar bo‘yicha) taʼlim yoʻnalishi talabalari va fanni mustaqil oʻrganuvchilar uchun auditoriyada berilgan taʼlimni yanada mustahkamlash oʻz ustida ishlashni osonlashtirish, oʻzining bilimini baholash, istalgan vaqtda shaxsiy mobil telefoni yoki smartfonidan foydalangan holda oʻzlashtirish natijasini 75-90% gacha oshirish imkonini beradi.
+\n  Mobil dastur oʻzining oson oʻrnatilashi, tushunarliligi, barcha kerakli maʼlumotlarni oʻzida qamrab olganligi, oʻrgatuvchi va nazorat testlarining har bir mavzusi boʻyicha alohida tuzilganligi, barcha android qurilmalar uchun moʻljallanganligi bilan boshqa mobil ilovalardan tubdan farq qiladi.
+"
+
+            android:justificationMode="inter_word"
+            android:paddingTop="20dp"
+            android:lineSpacingExtra="10sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
